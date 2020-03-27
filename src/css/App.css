@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* writing-mode: vertical-lr;
+  transform: rotate(180deg) */
+
+body {
+  font-family: 'Raleway', sans-serif;
+  min-height: 100vh;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  color: rgb(26, 26, 26)
+}
+
+h1 {
+  font-size: 4rem;
+  color: #003366;
+  margin-bottom: 2rem;
+
+}
+
+.white {
+  color: white
+}
+
+.h1-container {
+  align-self: end;
+}
+
+.footer {
+  height: 50px;
+}

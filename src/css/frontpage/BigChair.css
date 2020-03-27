@@ -1,0 +1,24 @@
+.chair {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 12px;
+    grid-row-gap: 13px;
+}
+
+.chair .div1 {
+    grid-area: 1 / 1 / 7 / 13;
+}
+
+.chair .div1 img {
+    width: 100%;
+}
+
+.chair .div2 {
+    grid-area: 2 / 8 / 3 / 12;
+}
+
+.chair .div3 {
+    grid-area: 3 / 8 / 5 / 11;
+}
