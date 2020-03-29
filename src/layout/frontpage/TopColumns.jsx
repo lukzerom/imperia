@@ -6,30 +6,30 @@ const TopColumns = () => {
   return (
     <div className='parent'>
       <div className='div1'>
-        <img src={img16} alt='' />
+        <img src={img16} data-aos="fade-left" alt='' />
       </div>
-      <div className='div2  h1-container'>
+      <div className='div2  h1-container' data-aos="fade-up">
         <h1>Projektowanie wnętrz</h1>
       </div>
-      <div className='div3'>
+      <div className='div3' data-aos="fade-up">
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
           inventore non doloribus fugit a doloremque quidem earum, ipsa quisquam
           vitae iure? Reprehenderit, dolor. Ex quisquam quidem culpa tempore, a
         </p>
       </div>
-      <div className='div4'>
+      <div className='div4' data-aos="fade-up" >
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
           inventore non doloribus fugit a doloremque quidem earum, ipsa quisquam
           vitae iure? Reprehenderit, dolor. Ex quisquam quidem culpa tempore, a
         </p>
       </div>
-      <div className='div5  h1-container'>
+      <div  className='div5  h1-container' data-aos="fade-up">
         <h1>Kompleksowa obsługa</h1>
       </div>
-      <div className='div6'>
-        <p>
+      <div className='div6' data-aos="fade-up">
+        <p >
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
           inventore non doloribus fugit a doloremque quidem earum, ipsa quisquam
           vitae iure? Reprehenderit, dolor. Ex quisquam quidem culpa tempore, a
@@ -38,7 +38,7 @@ const TopColumns = () => {
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
         </p>
       </div>
-      <div className='div7'>
+      <div className='div7' data-aos="fade-up">
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
           inventore non doloribus fugit a doloremque quidem earum, ipsa quisquam
@@ -52,10 +52,10 @@ const TopColumns = () => {
       </div>
       <div className='div8'> </div>
       <div className='div9'> </div>
-      <div className='div10  h1-container'>
+      <div className='div10  h1-container' data-aos="fade-up">
         <h1>Skandynawski design</h1>
       </div>
-      <div className='div11'>
+      <div className='div11' data-aos="fade-up">
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
           inventore non doloribus fugit a doloremque quidem earum, ipsa quisquam

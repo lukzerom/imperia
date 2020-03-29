@@ -8,10 +8,10 @@ const BigChair = () => {
       <div className='div1'>
         <img src={img21} alt='' />
       </div>
-      <div className='div2'>
+      <div className='div2'  data-aos="fade-up">
         <h1 className='white'>Najlepsza jakość</h1>
       </div>
-      <div class='div3'>
+      <div class='div3'  data-aos="fade-up">
         <p className='white'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid eius
           tempore adipisci quidem repellat animi, doloremque aperiam dolorem
