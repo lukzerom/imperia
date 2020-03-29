@@ -12,21 +12,46 @@ body {
 }
 
 p {
-  font-size: 1rem;
+  font-size: 12px;
   line-height: 1.5rem;
   letter-spacing: 1px;
   color: rgb(26, 26, 26)
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
   color: #003366;
   margin-bottom: 2rem;
 
 }
 
+h2 {
+  font-size: 2rem;
+  color: #003366;
+  margin-bottom: 2rem;
+
+}
+  .darkblue { 
+    background-color:  #003366;
+  }
+
+
 .white {
   color: white
+}
+
+.img { 
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.sideText { 
+  font-size: 1rem;
+  writing-mode: vertical-lr;
+  color: #003366;
+  transform: rotate(180deg);
+  position: relative;
 }
 
 .h1-container {

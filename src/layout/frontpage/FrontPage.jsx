@@ -3,8 +3,8 @@ import TopColumns from './TopColumns.jsx';
 import BigChair from './BigChair.jsx';
 import ThreeColumns from './ThreeColumns.jsx';
 import Implementation1 from './Implementation1';
-import Implementation2 from './Implementation1';
-import Implementation3 from './Implementation1';
+import Implementation2 from './Implementation2';
+import Implementation3 from './Implementation3';
 import MoreAboutUs from './MoreAboutUs.jsx';
 
 const FrontPage = () => {

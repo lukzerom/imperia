@@ -4,11 +4,11 @@ import '../../css/frontpage/BigChair.css';
 
 const BigChair = () => {
   return (
-    <div class='chair'>
-      <div class='div1'>
+    <div className='chair'>
+      <div className='div1'>
         <img src={img21} alt='' />
       </div>
-      <div class='div2'>
+      <div className='div2'>
         <h1 className='white'>Najlepsza jakość</h1>
       </div>
       <div class='div3'>
@@ -17,6 +17,9 @@ const BigChair = () => {
           tempore adipisci quidem repellat animi, doloremque aperiam dolorem
           nisi explicabo exercitationem, eum ex, rem ut! Atque unde at ullam
           excepturi? Necessitatibus reprehenderit corporis, quam est quod
+          ratione nesciunt sint delectus atque, quaerat aspernatur fugit aut
+          minima in voluptas, voluptatibus vel ullam repellat voluptatem sequi
+          placeat! Odit sed sapiente hic vel! Necessitatibus nemo maiores quiasitatibus reprehenderit corporis, quam est quod
           ratione nesciunt sint delectus atque, quaerat aspernatur fugit aut
           minima in voluptas, voluptatibus vel ullam repellat voluptatem sequi
           placeat! Odit sed sapiente hic vel! Necessitatibus nemo maiores quia

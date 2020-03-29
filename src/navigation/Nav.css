@@ -2,7 +2,8 @@ nav {
   width: 100vw;
   height: 80px;
   position: fixed;
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  /* box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23); */
+  
   box-sizing: border-box;
   top: 0;
   background-color: rgba(255, 255, 255, 0.9);
@@ -26,6 +27,7 @@ nav ul {
 
 nav ul li {
   display: inline-block;
+  font-size: 12px;
   letter-spacing: 1px;
   cursor: pointer;
   line-height: 80px;
@@ -38,7 +40,7 @@ nav ul li {
 }
 
 nav ul li:hover {
-  color: rgba(0, 110, 157, 1);
+  color: #003366;
 }
 
 .logo {

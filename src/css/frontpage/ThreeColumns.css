@@ -1,0 +1,15 @@
+.threeColumns {
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    }
+    
+    .threeColumns .div1 { grid-area: 2 / 4 / 3 / 6; }
+    .threeColumns .div2 { grid-area: 2 / 6 / 3 / 8; }
+    .threeColumns .div3 { grid-area: 2 / 8 / 3 / 10; }
+    .threeColumns .div4 { grid-area: 3 / 4 / 5 / 6; }
+    .threeColumns .div5 { grid-area: 3 / 6 / 5 / 8; }
+    .threeColumns .div6 { grid-area: 3 / 8 / 5 / 10; }

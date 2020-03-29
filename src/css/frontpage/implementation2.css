@@ -1,0 +1,13 @@
+.implementation2 {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    }
+    
+    .implementation2 .div1 { grid-area: 1 / 10 / 2 / 12; }
+    .implementation2 .div2 { grid-area: 1 / 1 / 4 / 9; }
+    .implementation2 .div3 { grid-area: 2 / 10 / 4 / 12; }
+    .implementation2 .div4 { grid-area: 5 / 8 / 7 / 13; display: flex; overflow: hidden }
+    .implementation2 .div5 { grid-area: 6 / 1 / 8 / 6; }
