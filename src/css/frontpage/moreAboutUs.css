@@ -1,0 +1,17 @@
+.moreabout {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    }
+    
+    .moreabout  .div1 {grid-area: 2 / 4 / 3 / 10;  }
+    .moreabout  .div2 { grid-area: 4 / 2 / 5 / 4; }
+    .moreabout  .div3 { grid-area: 5 / 2 / 6 / 4; }
+    .moreabout  .div4 { grid-area: 4 / 5 / 5 / 7; }
+    .moreabout  .div5 { grid-area: 5 / 5 / 6 / 7; }
+    .moreabout  .div6 { grid-area: 6 / 2 / 7 / 4; }
+    .moreabout  .div7 { grid-area: 7 / 2 / 8 / 4; }
+    .moreabout  .div8 { grid-area: 4 / 10 / 6 / 12; }

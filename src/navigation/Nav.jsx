@@ -35,19 +35,19 @@ const Nav = () => {
             <i className='fas fa-home'></i>
           </li>
         </Link>
-        <Link to='/Products'>
+        <Link to='/products'>
           <li>Produkty</li>
         </Link>
-        <Link to='/Implementations'>
+        <Link to='/implementations'>
           <li>Realizacje</li>
         </Link>
-        <Link to='/Services'>
+        <Link to='/services'>
           <li>Usługi</li>
         </Link>
-        <Link to='/About'>
+        <Link to='/about'>
           <li>O nas </li>
         </Link>
-        <Link to='/Contact'>
+        <Link to='/contact'>
           <li>Kontakt</li>
         </Link>
       </ul>
