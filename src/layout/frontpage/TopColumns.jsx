@@ -11,7 +11,12 @@ const TopColumns = () => {
       <div className='div2  h1-container' data-aos="fade-up">
         <h1>Projektowanie wnętrz</h1>
       </div>
-      <div className='div3' data-aos="fade-up">
+      <div className='div3 two-columns-large' data-aos="fade-up">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
+          inventore non doloribus fugit a doloremque quidem earum, ipsa quisquam
+          vitae iure? Reprehenderit, dolor. Ex quisquam quidem culpa tempore, a
+        </p>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
           inventore non doloribus fugit a doloremque quidem earum, ipsa quisquam
@@ -19,37 +24,27 @@ const TopColumns = () => {
         </p>
       </div>
       <div className='div4' data-aos="fade-up" >
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
-          inventore non doloribus fugit a doloremque quidem earum, ipsa quisquam
-          vitae iure? Reprehenderit, dolor. Ex quisquam quidem culpa tempore, a
-        </p>
+        
       </div>
       <div  className='div5  h1-container' data-aos="fade-up">
         <h1>Kompleksowa obsługa</h1>
       </div>
-      <div className='div6' data-aos="fade-up">
+      <div className='div6 two-columns-large' data-aos="fade-up">
         <p >
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
           inventore non doloribus fugit a doloremque quidem earum, ipsa quisquam
           vitae iure? Reprehenderit, dolor. Ex quisquam quidem culpa tempore, a
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. emque quidem earum, ipsa quisquam
-          vitae iure? Reprehenderit, dolor. Ex quisquam quidem culpa tempore, a
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+          Lorem ipsum dolor sit amet, consectetur adipisic 
         </p>
-      </div>
-      <div className='div7' data-aos="fade-up">
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem
           inventore non doloribus fugit a doloremque quidem earum, ipsa quisquam
           vitae iure? Reprehenderit, dolor. Ex quisquam quidem culpa tempore, a
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
-          magni quam dolon doloribus fugit a doloremque quidem earum, ipsa quisquam
-          vitae iure? Reprehenderit, dolor. Ex quisquam quidem culpa tempore, a
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem
-          magni quam dol
+          magni quam 
         </p>
       </div>
+    
       <div className='div8'> </div>
       <div className='div9'> </div>
       <div className='div10  h1-container' data-aos="fade-up">

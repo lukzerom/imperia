@@ -46,8 +46,7 @@ h2 {
 
 .img { 
   width: 100%;
-  height: 100%;
-  object-fit: fill;
+  object-fit: cover;
 }
 
 .sideText { 
@@ -72,4 +71,29 @@ h2 {
 
 .footer {
   height: 50px;
+}
+
+.two-columns-large { 
+  width: 100%;
+  display: flex;
+  margin-right: 12px;
+  justify-content: space-between;
+
+}
+
+.two-columns-large p {
+     width: 50%;
+    margin-right: 12px;
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .two-columns-large { 
+    display: inherit;
+  }
+
+  .two-columns-large  p { 
+    width: 100%;
+    margin: 0
+}
 }
