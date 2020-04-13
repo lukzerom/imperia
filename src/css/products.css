@@ -1,0 +1,116 @@
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card {
+    width: 20%;
+    text-align: center;
+    display: inline-block;
+    margin: 20px;
+    height: 300px;
+    border-radius: 2rem;
+    cursor: pointer;
+}
+
+.card .img {
+    line-height: 15rem;
+    color: #003366;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid #003366;
+}
+
+.hidden {
+    font-size: 1.5rem;
+}
+
+.card:hover .img {
+    display: none;
+}
+
+.card .hidden {
+    display: none;
+}
+
+.card:hover .hidden {
+    display: inherit;
+}
+
+.title {
+    display: flex;
+}
+
+.seperate {
+    margin: 0 20px;
+    color: gray;
+}
+
+
+
+
+/* .card .img.hidden:hover {
+    display: inherit;
+} */
+
+.card .subtitle {
+    background-color: #cbbca9;
+    width: 100%;
+    text-align: center;
+    line-height: 4rem;
+    font-weight: 600;
+    border: 1px solid #cbbca9;
+}
+
+
+
+
+.productImg {
+
+    height: 15rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+.darker {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 15rem;
+    font-weight: 600;
+    color: white;
+    width: 100%;
+    background-color: rgba(27, 27, 27, 0.521);
+}
+
+.card:hover .darker {
+    display: inherit;
+}
+
+.imgWrapper {
+    text-align: center;
+}
+
+.bigImg {
+    width: 70%;
+}
+
+.descriptionWrapper {
+    display: flex;
+    margin: 20px;
+}
+
+.description {
+    padding: 20px;
+    border: 1px solid #cbbca9;
+}
+
+.productDescImg {
+    margin: 0 20px;
+    height: 100%;
+    width: 35%;
+    object-fit: cover;
+    align-self: center;
+}

@@ -8,6 +8,9 @@ import Products from "./layout/products/Products";
 import Services from "./layout/services/Services";
 import About from "./layout/about/About";
 import Contact from "./layout/contact/Contact";
+import Acoustic from "./layout/products/categories/Acoustic";
+import Budki from "./layout/products/categories/BudkiTelefoniczne";
+import Product from "./layout/products/categories/Product";
 import Footer from "./layout/Footer";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
@@ -21,6 +24,9 @@ function App() {
           <Nav />
           <Switch>
             <Route path="/implementations" component={Implementations} />
+            <Route path="/products-acoustic/:id" component={Product} />
+            <Route path="/products-acoustic" component={Acoustic} />
+            <Route path="/budki-telefoniczne" component={Budki} />
             <Route path="/products" component={Products} />
             <Route path="/services" component={Services} />
             <Route path="/about" component={About} />

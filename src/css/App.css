@@ -9,6 +9,7 @@
 body {
   font-family: 'Raleway', sans-serif;
   min-height: 100vh;
+  box-sizing: border-box;
 }
 
 p {
@@ -29,43 +30,66 @@ h2 {
   font-size: 2rem;
   color: #003366;
   margin-bottom: 2rem;
-
 }
-  .darkblue { 
-    background-color:  #003366;
-  }
+
+h3 {
+  color: #003366;
+}
+
+.darkblue {
+  background-color: #003366;
+  width: 100%;
+}
 
 
 .white {
   color: white
 }
 
-.bold { 
+.grey {
+  color: #cbbca9
+}
+
+.bold {
   font-weight: 500;
 }
 
-.img { 
+.img {
   width: 100%;
   object-fit: cover;
 }
 
-.sideText { 
+.sideText {
   font-size: 1rem;
-  writing-mode: vertical-lr;
+  writing-mode: vertical-rl;
   color: #003366;
   transform: rotate(180deg);
   position: relative;
+}
+
+.darkblue {
+  vertical-align: middle;
+}
+
+.sideTextBig {
+  font-size: 4rem;
+  writing-mode: vertical-lr;
+  color: white;
+  transform: rotate(180deg);
+  letter-spacing: 5px;
+  padding: 20px;
+
 }
 
 .h1-container {
   align-self: end;
 }
 
-.divider { 
+.divider {
   height: 20vh;
 }
 
-.center { 
+.center {
   text-align: center;
 }
 
@@ -73,7 +97,7 @@ h2 {
   height: 50px;
 }
 
-.two-columns-large { 
+.two-columns-large {
   width: 100%;
   display: flex;
   margin-right: 12px;
@@ -82,18 +106,18 @@ h2 {
 }
 
 .two-columns-large p {
-     width: 50%;
-    margin-right: 12px;
+  width: 50%;
+  margin-right: 12px;
 }
 
 @media only screen and (max-width: 1200px) {
 
-  .two-columns-large { 
+  .two-columns-large {
     display: inherit;
   }
 
-  .two-columns-large  p { 
+  .two-columns-large p {
     width: 100%;
     margin: 0
-}
+  }
 }
