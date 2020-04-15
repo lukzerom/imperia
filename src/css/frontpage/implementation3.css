@@ -4,9 +4,24 @@
     grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 12px;
     grid-row-gap: 12px;
-    }
-    
-    .implementation3  .div1 { grid-area: 1 / 6 / 2 / 8; }
-    .implementation3  .div2 { grid-area: 2 / 6 / 5 / 8; }
-    .implementation3  .div3 { grid-area: 1 / 2 / 6 / 5; display: flex; overflow: hidden }
-    .implementation3  .div4 { grid-area: 1 / 9 / 6 / 12; display: flex; overflow: hidden }
+}
+
+.implementation3 .div1 {
+    grid-area: 1 / 6 / 2 / 8;
+}
+
+.implementation3 .div2 {
+    grid-area: 2 / 6 / 5 / 8;
+}
+
+.implementation3 .div3 {
+    grid-area: 1 / 2 / 6 / 5;
+    display: flex;
+    overflow: hidden
+}
+
+.implementation3 .div4 {
+    grid-area: 1 / 9 / 6 / 12;
+    display: flex;
+    overflow: hidden
+}
