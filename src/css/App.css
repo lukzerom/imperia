@@ -50,6 +50,11 @@ h3 {
   color: #cbbca9
 }
 
+.bg-grey {
+  background-color: #cbbca9
+}
+
+
 .bold {
   font-weight: 500;
 }
@@ -109,6 +114,19 @@ h3 {
 .two-columns-large p {
   width: 50%;
   margin-right: 12px;
+}
+
+.two-columns-flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.half {
+  width: 50%;
+  padding: 12px;
+  height: auto;
+  object-fit: cover;
+
 }
 
 @media only screen and (max-width: 1200px) {

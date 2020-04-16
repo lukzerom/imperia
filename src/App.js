@@ -13,6 +13,7 @@ import Budki from "./layout/products/categories/BudkiTelefoniczne";
 import Product from "./layout/products/categories/Product";
 import Footer from "./layout/Footer";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import ForArchitect from "./layout/ForArchitect";
 
 AOS.init();
 
@@ -24,6 +25,7 @@ function App() {
           <Nav />
           <Switch>
             <Route path="/implementations" component={Implementations} />
+            <Route path="/dla-architekta" component={ForArchitect} />
             <Route path="/products-acoustic/:id" component={Product} />
             <Route path="/products-acoustic" component={Acoustic} />
             <Route path="/budki-telefoniczne" component={Budki} />

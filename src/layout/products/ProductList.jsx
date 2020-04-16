@@ -6,8 +6,6 @@ import { Link } from "react-router-dom";
 const ProductList = () => {
   return (
     <>
-      <div className="divider"></div>
-
       <div className="wrapper">
         <h3>Produkty</h3>
 

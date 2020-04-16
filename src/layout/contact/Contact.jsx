@@ -1,12 +1,14 @@
 import React from "react";
 import Map from "./Map";
+import MoreAbout from "../frontpage/MoreAboutUs";
 
 const Contact = () => {
   return (
     <div>
-      <div className="divider"></div>
-      <h1>Kontakt</h1>
-      <Map />
+      <MoreAbout />
+      <div className="wrapper">
+        <Map />
+      </div>
     </div>
   );
 };

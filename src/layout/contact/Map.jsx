@@ -1,6 +1,4 @@
 import React from "react";
-import "leaflet/dist/leaflet.css";
-import "../../css/contact.css";
 import L from "leaflet";
 import styled from "styled-components";
 

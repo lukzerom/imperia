@@ -1,6 +1,5 @@
 .wrapper {
-    width: 80%;
-    margin: 0 auto;
+    padding: calc(100%/12)
 }
 
 .card {
