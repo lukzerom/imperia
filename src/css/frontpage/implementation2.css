@@ -28,3 +28,18 @@
 .implementation2 .div5 {
     grid-area: 6 / 1 / 8 / 6;
 }
+
+@media (max-width: 1000px) {
+
+
+    .implementation2 {
+        display: initial;
+        height: auto;
+
+    }
+
+    .implementation2 .img {
+        margin-top: 20px;
+    }
+
+}

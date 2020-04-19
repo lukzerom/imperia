@@ -7,7 +7,9 @@ const Contact = () => {
     <div>
       <MoreAbout />
       <div className="wrapper">
-        <Map />
+        <div className="wrapper-mobile">
+          <Map />
+        </div>
       </div>
     </div>
   );

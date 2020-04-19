@@ -9,74 +9,94 @@
 
 
 
-.parent  .div1 {
+.parent .div1 {
     grid-area: 2 / 7 / 6 / 13;
 
 }
 
-.parent  .div1 img {
+.parent .div1 img {
     width: 100%;
     object-fit: cover;
 }
 
-.parent  .div2 {
+.parent .div2 {
     grid-area: 3 / 2 / 4 / 6;
 
 }
 
 
 
-.parent  .div3 {
+.parent .div3 {
     grid-area: 4 / 2 / 6 / 6;
 
 }
 
 
-.parent  .div5 {
+.parent .div5 {
     grid-area: 7 / 5 / 8 / 10;
 }
 
-.parent  .div6 {
+.parent .div6 {
 
     grid-area: 8 / 5 / 11 / 9;
 
 }
 
-.parent  .div7 {
+.parent .div7 {
     grid-area: 8 / 7 / 11 / 9;
 }
 
-.parent  .div8 {
+.parent .div8 {
     grid-area: 8 / 2 / 10 / 4;
 }
 
-.parent  .div9 {
-    grid-area: 8 / 11 / 10 / 13;
+.parent .div9 {
+    grid-area: 7 / 10 / 10 / 12;
 }
 
-.parent  .div10 {
+.parent .div10 {
     grid-area: 12 / 8 / 13 / 12;
 }
 
-.parent  .div11 {
+.parent .div11 {
     grid-area: 13 / 8 / 14 / 12;
 }
 
-.parent  .div12 {
-    grid-area: 12 / 3 / 14 / 5;
+.parent .div12 {
+    grid-area: 12 / 2 / 14 / 7;
 }
 
-@media only screen and (max-width: 1200px) {
-    .parent  .div3 {
+@media (max-width: 1200px) {
+    .parent .div3 {
         grid-area: 4 / 2 / 6 / 6;
         display: inherit;
-      
-    }
-    .parent  .div6 {
-        grid-area: 8 / 5 / 11 / 9;
-        display: inherit;
-     
+
     }
 
-  
-  }
+    .parent .div6 {
+        grid-area: 8 / 5 / 11 / 9;
+        display: inherit;
+
+    }
+
+
+}
+
+@media (max-width: 1000px) {
+
+
+
+    .parent {
+        display: initial;
+        height: auto;
+
+    }
+
+    .two-columns-large {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+}

@@ -42,3 +42,19 @@
     display: flex;
     overflow: hidden
 }
+
+@media (max-width: 1000px) {
+
+
+
+    .implementation1 {
+        display: initial;
+        height: auto;
+
+    }
+
+    .implementation1 .img {
+        margin-top: 20px;
+    }
+
+}

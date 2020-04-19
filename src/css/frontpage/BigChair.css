@@ -18,9 +18,29 @@
 }
 
 .chair .div2 {
-    grid-area: 2 / 8 / 3 / 12;
+    grid-area: 2 / 7 / 3 / 12;
 }
 
 .chair .div3 {
-    grid-area: 3 / 8 / 5 / 11;
+    grid-area: 3 / 7 / 7 / 12;
+}
+
+@media (max-width: 1000px) {
+
+    .chair {
+        display: initial;
+        height: auto;
+
+    }
+
+    .chair h1 {
+        color: #003366
+    }
+
+    .chair p {
+        color: rgb(26, 26, 26);
+    }
+
+
+
 }

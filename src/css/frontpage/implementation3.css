@@ -25,3 +25,22 @@
     display: flex;
     overflow: hidden
 }
+
+@media (max-width: 1000px) {
+
+
+    .implementation3 {
+        display: initial;
+        height: auto;
+
+    }
+
+    .implementation3 .img {
+        margin-top: 20px;
+    }
+
+    .esotiq_bottom {
+        display: none;
+    }
+
+}

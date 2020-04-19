@@ -129,6 +129,19 @@ h3 {
 
 }
 
+.img-alfa {
+  width: 10rem;
+  height: 10rem;
+  object-fit: contain;
+
+}
+
+.wrapper {
+  padding: calc(100%/12)
+}
+
+
+
 @media only screen and (max-width: 1200px) {
 
   .two-columns-large {
@@ -139,4 +152,33 @@ h3 {
     width: 100%;
     margin: 0
   }
+}
+
+@media (max-width: 1000px) {
+
+  .wrapper {
+    padding: 0;
+  }
+
+  .wrapper-mobile {
+    display: flex;
+    padding: 5rem 1rem 1rem 1rem;
+    width: 100vw;
+    box-sizing: border-box;
+  }
+
+  .two-columns-flex {
+    flex-direction: column;
+  }
+
+  .half {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+
+
+
+
+
 }

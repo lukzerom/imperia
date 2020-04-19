@@ -6,8 +6,7 @@ import rysunek from "../../assets/thumbnails/rysunek.jpg";
 
 const Services = () => {
   return (
-    <div>
-      <br />
+    <div className="wrapper-mobile">
       <div className="services">
         <div className="div1" data-aos="fade-up">
           <h1>Analiza potrzeb</h1>
@@ -23,9 +22,7 @@ const Services = () => {
         <div className="div3" data-aos="fade-left">
           <img src={startup} className="img" alt="" />
         </div>
-        <div className="div4">
-          <img src={img26} className="img" alt="" data-aos="fade-right" />
-        </div>
+
         <div className="div5  bg-grey" data-aos="fade-left"></div>
         <div className="div6">
           <h1 className="white" data-aos="fade-left">
@@ -47,6 +44,9 @@ const Services = () => {
             labore?
           </p>
         </div>
+        <div className="div4">
+          <img src={img26} className="img" alt="" data-aos="fade-right" />
+        </div>
         <div className="div8" data-aos="fade-up">
           <h1>Montaż i serwis</h1>{" "}
         </div>
@@ -62,7 +62,7 @@ const Services = () => {
           </p>
         </div>
         <div className="div10" data-aos="fade-up">
-          <h1>Testowanie</h1>{" "}
+          <h1>Testowanie</h1>
         </div>
         <div className="div11" data-aos="fade-up">
           <p>
@@ -75,7 +75,7 @@ const Services = () => {
             iste quam, tenetur debitis eaque ipsum? Corporis, ex!
           </p>
         </div>
-        <div className="div12 darkblue" data-aos="fade-right"></div>
+        <div className="div12 darkblue"></div>
         <div className="div13">
           <h1 className="white" data-aos="fade-up">
             Inwentaryzacja mebli
@@ -89,8 +89,8 @@ const Services = () => {
             facilis?
           </p>
         </div>
-        <div className="div15" data-aos="fade-left">
-          <img src={rysunek} alt="" />
+        <div className="div15" data-aos="fade-up">
+          <img src={rysunek} alt="" className="img" />
         </div>
       </div>
     </div>
